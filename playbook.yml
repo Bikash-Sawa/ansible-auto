@@ -6,6 +6,6 @@
       name: apache2
       state: present
   - name: Create new User
-     user:
+    user:
       name: bokaa
       state: present
