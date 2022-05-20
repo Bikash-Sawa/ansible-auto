@@ -5,3 +5,7 @@
     apt:
       name: apache2
       state: present
+  - name: Create new User
+     user:
+      name: bokaa
+      state: present
