@@ -1,0 +1,7 @@
+- name: installing package
+  hosts: all
+  tasks:
+  - name: installing apache2 on clientmachine
+    apt:
+      name: apache2
+      state: present
